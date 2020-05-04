@@ -2,24 +2,34 @@
 def game_hash
   new_game_hash = {
     :home => {
-      :team_name => ""
-      :color => []
+      :team_name => "",
+      :color => [],
       :players => [
-        :player_name =>
-        :number =>
-        :shoe =>
-        :points =>
-        :rebounds =>
-        :assists =>
-        :steals =>
-        :blocks =>
+        :player_name =>,
+        :number =>,
+        :shoe =>,
+        :points =>,
+        :rebounds =>,
+        :assists =>,
+        :steals =>,
+        :blocks =>,
         :slam_dunks =>
         ]
     }
     :away => {
-      :team_name =>
-      :color =>
-      :players =>
+      :team_name => "",
+      :color => [],
+      :players => [
+        :player_name =>,
+        :number =>,
+        :shoe =>,
+        :points =>,
+        :rebounds =>,
+        :assists =>,
+        :steals =>,
+        :blocks =>,
+        :slam_dunks =>
+        ]
     }
   }
 end
